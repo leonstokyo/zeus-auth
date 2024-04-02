@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: zeus-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: resource.leons-tokyo.top:8848
+        username: nacos
+        password: ${zeus.nacos.password}
+        group: zeus
