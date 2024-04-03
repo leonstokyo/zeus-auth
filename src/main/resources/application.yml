@@ -7,6 +7,6 @@ spring:
     nacos:
       discovery:
         server-addr: resource.leons-tokyo.top:8848
-        username: nacos
+        username: ${zeus.nacos.username}
         password: ${zeus.nacos.password}
         group: zeus
