@@ -1,5 +1,6 @@
 package jp.tokyo.leon.zeus.auth.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,4 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    @GetMapping("/auth/hello")
+    public String helloAuth() {
+        return "hello auth";
+    }
 }

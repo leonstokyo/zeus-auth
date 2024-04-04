@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 3031
 spring:
   application:
     name: zeus-auth
