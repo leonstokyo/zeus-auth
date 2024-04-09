@@ -10,3 +10,6 @@ spring:
         username: ${zeus.nacos.username}
         password: ${zeus.nacos.password}
         group: zeus
+logging:
+  level:
+    jp.tokyo.leon.zeus.user.feign.client: debug
